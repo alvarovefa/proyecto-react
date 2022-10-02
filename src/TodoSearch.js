@@ -1,9 +1,18 @@
-import React from "react";
+import React from 'react';
+import './TodoSearch.css';
 
 function TodoSearch() {
-    return (
-    <p>buscando</p>
-    );
+    const onSearValueChange = (event) => {
+        console.log(event.target.value);
+    };
+  return (
+    <input 
+        className="TodoSearch" 
+        placeholder="Cebolla" 
+        onChange={onSearValueChange}    
+    
+    />
+  );
 }
 
-export {TodoSearch};
+export { TodoSearch };
