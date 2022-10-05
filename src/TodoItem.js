@@ -3,7 +3,7 @@ import './TodoItem.css';
 
 function TodoItem(props) {
     const onComplete = () => {
-        alert(`La tarea: ${props.text} ha sido completada`);
+        console.log('completed');
     }
 
     const onDelete = () => {
