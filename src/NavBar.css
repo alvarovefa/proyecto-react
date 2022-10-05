@@ -1,0 +1,41 @@
+ul {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+li{
+    display: inline;
+    list-style: none;
+    padding: 20px;
+    float: right; 
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+.logo {
+width: 70px;
+height: 70px;
+float: left;
+}
+
+@media screen and (max-widh: 1000px) {
+
+    a {
+        color: blue;
+    }
+    .navBarDesktopMenu {
+        display: none;
+    }
+
+    .logo {
+        width: 500px;
+    }
+}
